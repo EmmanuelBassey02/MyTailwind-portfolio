@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'font-awesome/css/font-awesome.min.css';
+
+.section-five-A
+{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   /* padding-left: 3vw;
+   padding-right: 3vw; */
+   justify-content: center;
+   /* background-color: black; */
+   height: fit-content;
+   padding-top: 25px;
+   padding-bottom: 20px;
+   /* border: 2px solid rgb(227, 8, 8); */
+}
+
+.services-box {
+   height: 250px;
+   width: 250px;
+   /* border: 2px solid red; */
+   border-radius: 4px;
+   position: relative;
+   border-bottom-left-radius: 16px;
+   border-bottom-right-radius: 16px;
+   box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.details {
+   height: 53px;
+   width: 250px;
+   background-color: rgb(53, 54, 53);
+   overflow: scroll;
+   transition: 2s;
+   position: absolute;
+   bottom: 10px;
+   left: 0px;
+   /* border: 2px solid red; */
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.p-details {
+   font-size: 16px;
+}
+
+.h1-details {
+   margin: 7px;
+   color: rgb(33, 239, 171);
+   font-size: 15px;
+   text-align: center;
+}
+
+.services-box:hover .details {
+   cursor: pointer;
+   height: 200px;
+   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.services-box:hover p {
+   color: white;
+   padding-bottom: 10px;
+}
+
+.imageBox {
+   height: 240px;
+   width: 100%;
+   border-radius: 10px;
+}
+
+
+
+.box {
+   /* background-color: rgb(220, 216, 216); */
+   background-color: transparent;
+   color: #f9f6f6;
+   justify-content: space-between;
+
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: space-between;
+   align-items: center;
+
+   margin: 10px;
+   padding-left: 15px;
+   padding-right: 12px;
+   width: 75%;
+   height: 150px;
+   border-radius: 10px;
+   /* transform: translateX(400%); */
+   transition: transform 0.8s ease;
+}
+
+.box:nth-of-type(even) {
+   transform: translateX(-400%);
+}
+
+.box.show {
+   transform: translateX(0);
+}
+
+.box h2 {
+   font-size: 45px;
+}
+
+
