@@ -10,7 +10,7 @@
   <!-- <link href="https://cdn.jsdelivr.net/npm/font-awesome@6.3.1/css/all.min.css" rel="stylesheet" /> -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" /> -->
-  <link rel="ttps://fonts.googleapis.com/css2?family=Your+Font+Name" rel="stylesheet">
+  <link rel="https://fonts.googleapis.com/css2?family=Your+Font+Name" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&display=swap" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
 
@@ -30,21 +30,21 @@
   <!-- TOGGLE BUTTON -->
   <section class="bg-black h-[26px]">
     <button id="theme-toggle" type="button"
-    class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
-    <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
-      xmlns="http://www.w3.org/2000/svg">
-      <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
-    </svg>
-    <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
-      xmlns="http://www.w3.org/2000/svg">
-      <path
-        d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
-        fill-rule="evenodd" clip-rule="evenodd"></path>
-    </svg>
-  </button>
+      class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
+      <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+      </svg>
+      <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+          fill-rule="evenodd" clip-rule="evenodd"></path>
+      </svg>
+    </button>
 
   </section>
-  
+
 
   <!-- JS CODE  -->
   <script>
@@ -89,19 +89,35 @@
     });
   </script>
 
-   <script>
-    document.title = 'My portfolio';
-   </script>
+
 
   <!-- NAVBAR -->
-  
-  <nav class=" border-b-2 sticky   font-serif  lg:pl-[10px] lg:pr-[130px] border-gray-600  dark:border-emerald-700 bg-black ">
+
+  <nav
+    class=" border-b-2 sticky top-0 z-10  font-serif  lg:pl-[10px] lg:pr-[130px] border-gray-600  dark:border-emerald-700 bg-black ">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+
+
+              <!-- sidebar button  -->
+      <!-- <button data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar"
+        type="button"
+        class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+        <span class="sr-only">Open sidebar</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg">
+          <path clip-rule="evenodd" fill-rule="evenodd"
+            d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z">
+          </path>
+        </svg>
+      </button> -->
+
+
+
+
       <a href="https://myportfoliotw.netlify.app" class="flex items-center">
 
         <img src="logoimg.png" class="h-8 md:h-14 w-8  md:w-14 mr-3" alt="Logo" />
-        <span
-          class="self-center md:text-2xl text-[18px] font-semibold whitespace-nowrap text-emerald-400">Emmy</span>
+        <span class="self-center md:text-2xl text-[18px] font-semibold whitespace-nowrap text-emerald-400">Emmy</span>
       </a>
       <button data-collapse-toggle="navbar-default" type="button"
         class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -152,15 +168,211 @@
 
 
 
-        </section>
+
+
+  <!-- sidebar button -->
+
+  <!-- <button data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+  <span class="sr-only">Open sidebar</span>
+  <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+  <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
+  </svg>
+</button> -->
+
+
+
+
+  <!-- sidebar content -->
+  <!-- <aside id="default-sidebar" class="fixed top-0 left-0 z-40 md:w-64 w-44 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
+  <div class="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
+     <ul class="space-y-2 font-medium">
+        <li>
+           <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <svg class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 21">
+                 <path d="M16.975 11H10V4.025a1 1 0 0 0-1.066-.998 8.5 8.5 0 1 0 9.039 9.039.999.999 0 0 0-1-1.066h.002Z"/>
+                 <path d="M12.5 0c-.157 0-.311.01-.565.027A1 1 0 0 0 11 1.02V10h8.975a1 1 0 0 0 1-.935c.013-.188.028-.374.028-.565A8.51 8.51 0 0 0 12.5 0Z"/>
+              </svg> &nbsp;  &nbsp;
+              <span class="ms-3">Dashboard</span>
+           </a>
+        </li>
+        <li>
+           <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18">
+                 <path d="M6.143 0H1.857A1.857 1.857 0 0 0 0 1.857v4.286C0 7.169.831 8 1.857 8h4.286A1.857 1.857 0 0 0 8 6.143V1.857A1.857 1.857 0 0 0 6.143 0Zm10 0h-4.286A1.857 1.857 0 0 0 10 1.857v4.286C10 7.169 10.831 8 11.857 8h4.286A1.857 1.857 0 0 0 18 6.143V1.857A1.857 1.857 0 0 0 16.143 0Zm-10 10H1.857A1.857 1.857 0 0 0 0 11.857v4.286C0 17.169.831 18 1.857 18h4.286A1.857 1.857 0 0 0 8 16.143v-4.286A1.857 1.857 0 0 0 6.143 10Zm10 0h-4.286A1.857 1.857 0 0 0 10 11.857v4.286c0 1.026.831 1.857 1.857 1.857h4.286A1.857 1.857 0 0 0 18 16.143v-4.286A1.857 1.857 0 0 0 16.143 10Z"/>
+              </svg>  &nbsp;  &nbsp;
+              <span class="flex-1 ms-3 whitespace-nowrap">Kanban</span>
+              <span class="inline-flex items-center justify-center px-2 ms-3 text-sm font-medium text-gray-800 bg-gray-100 rounded-full dark:bg-gray-700 dark:text-gray-300">Pro</span>
+           </a>
+        </li>
+        <li>
+           <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                 <path d="m17.418 3.623-.018-.008a6.713 6.713 0 0 0-2.4-.569V2h1a1 1 0 1 0 0-2h-2a1 1 0 0 0-1 1v2H9.89A6.977 6.977 0 0 1 12 8v5h-2V8A5 5 0 1 0 0 8v6a1 1 0 0 0 1 1h8v4a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-4h6a1 1 0 0 0 1-1V8a5 5 0 0 0-2.582-4.377ZM6 12H4a1 1 0 0 1 0-2h2a1 1 0 0 1 0 2Z"/>
+              </svg>  &nbsp;  &nbsp;
+              <span class="flex-1 ms-3 whitespace-nowrap">Inbox</span>
+              <span class="inline-flex items-center justify-center w-3 h-3 p-3 ms-3 text-sm font-medium text-blue-800 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300">3</span>
+           </a>
+        </li>
+        <li>
+           <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">
+                 <path d="M14 2a3.963 3.963 0 0 0-1.4.267 6.439 6.439 0 0 1-1.331 6.638A4 4 0 1 0 14 2Zm1 9h-1.264A6.957 6.957 0 0 1 15 15v2a2.97 2.97 0 0 1-.184 1H19a1 1 0 0 0 1-1v-1a5.006 5.006 0 0 0-5-5ZM6.5 9a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9ZM8 10H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5Z"/>
+              </svg>  &nbsp;  &nbsp;
+              <span class="flex-1 ms-3 whitespace-nowrap">Users</span>
+           </a>
+        </li>
+        <li>
+           <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
+                 <path d="M17 5.923A1 1 0 0 0 16 5h-3V4a4 4 0 1 0-8 0v1H2a1 1 0 0 0-1 .923L.086 17.846A2 2 0 0 0 2.08 20h13.84a2 2 0 0 0 1.994-2.153L17 5.923ZM7 9a1 1 0 0 1-2 0V7h2v2Zm0-5a2 2 0 1 1 4 0v1H7V4Zm6 5a1 1 0 1 1-2 0V7h2v2Z"/>
+              </svg>  &nbsp;  &nbsp;
+              <span class="flex-1 ms-3 whitespace-nowrap">Products</span>
+           </a>
+        </li>
+        <li>
+           <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 16">
+                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 8h11m0 0L8 4m4 4-4 4m4-11h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3"/>
+              </svg>  &nbsp;  &nbsp;
+              <span class="flex-1 ms-3 whitespace-nowrap">Sign In</span>
+           </a>
+        </li>
+        <li>
+           <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                 <path d="M5 5V.13a2.96 2.96 0 0 0-1.293.749L.879 3.707A2.96 2.96 0 0 0 .13 5H5Z"/>
+                 <path d="M6.737 11.061a2.961 2.961 0 0 1 .81-1.515l6.117-6.116A4.839 4.839 0 0 1 16 2.141V2a1.97 1.97 0 0 0-1.933-2H7v5a2 2 0 0 1-2 2H0v11a1.969 1.969 0 0 0 1.933 2h12.134A1.97 1.97 0 0 0 16 18v-3.093l-1.546 1.546c-.413.413-.94.695-1.513.81l-3.4.679a2.947 2.947 0 0 1-1.85-.227 2.96 2.96 0 0 1-1.635-3.257l.681-3.397Z"/>
+                 <path d="M8.961 16a.93.93 0 0 0 .189-.019l3.4-.679a.961.961 0 0 0 .49-.263l6.118-6.117a2.884 2.884 0 0 0-4.079-4.078l-6.117 6.117a.96.96 0 0 0-.263.491l-.679 3.4A.961.961 0 0 0 8.961 16Zm7.477-9.8a.958.958 0 0 1 .68-.281.961.961 0 0 1 .682 1.644l-.315.315-1.36-1.36.313-.318Zm-5.911 5.911 4.236-4.236 1.359 1.359-4.236 4.237-1.7.339.341-1.699Z"/>
+              </svg>  &nbsp;  &nbsp;
+              <span class="flex-1 ms-3 whitespace-nowrap">Sign Up</span>
+           </a>
+        </li>
+     </ul>
+  </div>
+</aside> -->
+
+
+
+  <!-- main body grid content -->
+  <!-- <div class="p-4 sm:ml-64">
+  <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
+     <div class="grid grid-cols-3 gap-4 mb-4">
+        <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
+           <p class="text-2xl text-gray-400 dark:text-gray-500">
+              <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
+              </svg>
+           </p>
+        </div>
+        <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
+           <p class="text-2xl text-gray-400 dark:text-gray-500">
+              <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
+              </svg>
+           </p>
+        </div>
+        <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
+           <p class="text-2xl text-gray-400 dark:text-gray-500">
+              <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
+              </svg>
+           </p>
+        </div>
+     </div>
+     <div class="flex items-center justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
+        <p class="text-2xl text-gray-400 dark:text-gray-500">
+           <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
+           </svg>
+        </p>
+     </div>
+     <div class="grid grid-cols-2 gap-4 mb-4">
+        <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
+           <p class="text-2xl text-gray-400 dark:text-gray-500">
+              <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
+              </svg>
+           </p>
+        </div>
+        <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
+           <p class="text-2xl text-gray-400 dark:text-gray-500">
+              <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
+              </svg>
+           </p>
+        </div>
+        <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
+           <p class="text-2xl text-gray-400 dark:text-gray-500">
+              <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
+              </svg>
+           </p>
+        </div>
+        <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
+           <p class="text-2xl text-gray-400 dark:text-gray-500">
+              <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
+              </svg>
+           </p>
+        </div>
+     </div>
+     <div class="flex items-center justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
+        <p class="text-2xl text-gray-400 dark:text-gray-500">
+           <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
+           </svg>
+        </p>
+     </div>
+     <div class="grid grid-cols-2 gap-4">
+        <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
+           <p class="text-2xl text-gray-400 dark:text-gray-500">
+              <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
+              </svg>
+           </p>
+        </div>
+        <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
+           <p class="text-2xl text-gray-400 dark:text-gray-500">
+              <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
+              </svg>
+           </p>
+        </div>
+        <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
+           <p class="text-2xl text-gray-400 dark:text-gray-500">
+              <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
+              </svg>
+           </p>
+        </div>
+        <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
+           <p class="text-2xl text-gray-400 dark:text-gray-500">
+              <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
+              </svg>
+           </p>
+        </div>
+     </div>
+  </div>
+</div> -->
+
+
+
+
+
+
+  </section>
 
   <!-- SECTION ONE -->
-  <section  class="h-fit font-serif text-center flex flex-wrap justify-between align-middle bg-black md:pt-[90px]  pt-[30px] pl-[5vw] pr-[5vw]  md:pb-[75px] pb-[50px] dark:bg-white">
+  <section
+    class="h-fit font-serif text-center flex flex-wrap justify-between align-middle bg-black md:pt-[90px]  pt-[30px] pl-[5vw] pr-[5vw]  md:pb-[75px] pb-[50px] dark:bg-white">
     <div class="hero-section h-fit  m-auto  sm:ml-auto sm:mr-auto text-left mb-[30px]">
       <h4 class="md:text-[22px] text-[18px] font-bold text-emerald-400 relative top-[30px] dark:text-emerald-700">HELLO!
       </h4>
-      <h1 class="md:text-[40px] text-[24px] font-bold text-white relative top-[30px] dark:text-black">I'm Emmanuel Bassey</h1>
-      <h3 class="md:text-[28px] text-[21px] font-bold text-emerald-400 relative top-[35px] dark:text-emerald-800 ">A Front-End
+      <h1 class="md:text-[40px] text-[24px] font-bold text-white relative top-[30px] dark:text-black">I'm Emmanuel
+        Bassey</h1>
+      <h3 class="md:text-[28px] text-[21px] font-bold text-emerald-400 relative top-[35px] dark:text-emerald-800 ">A
+        Front-End
         Developer</h3>
 
       <marquee>
@@ -176,15 +388,16 @@
         }; <br>
         <span class="text-red-600 font-extrabold"> printMessage( );</span>
       </p>
-      <button  class="md:w-[100px] w-[80px] md:text-[14px] text-[12px] md:h-[35px] h-[30px] rounded-[10px] m-auto  bg-emerald-400 text-black mt-[20px] font-extrabold border-none hover:bg-black hover:border-solid hover:border-emerald-400 dark:hover:border-black hover:border-2  hover:text-emerald-400 ">
+      <button
+        class="md:w-[100px] w-[80px] md:text-[14px] text-[12px] md:h-[35px] h-[30px] rounded-[10px] m-auto  bg-emerald-400 text-black mt-[20px] font-extrabold border-none hover:bg-black hover:border-solid hover:border-emerald-400 dark:hover:border-black hover:border-2  hover:text-emerald-400 ">
         <a href="https://wa.me/+2349017105774">HIRE ME</a>
       </button> &nbsp; &nbsp; &nbsp;
 
-      <button  class=" md:w-[130px] w-[110px] md:text-[14px] text-[12px] md:h-[35px] h-[30px] rounded-[10px] m-auto  border-2 border-emerald-400 border-solid bg-black text-emerald-400 mt-[20px] font-extrabold hover:bg-emerald-400 hover:text-black dark:hover:border-emerald-400 dark:border-black">MY
-       <a href="#Projects">PROJECTS</a></button>
+      <button
+        class=" md:w-[130px] w-[110px] md:text-[14px] text-[12px] md:h-[35px] h-[30px] rounded-[10px] m-auto  border-2 border-emerald-400 border-solid bg-black text-emerald-400 mt-[20px] font-extrabold hover:bg-emerald-400 hover:text-black dark:hover:border-emerald-400 dark:border-black">MY
+        <a href="#Projects">PROJECTS</a></button>
     </div>
 
-    <!-- <div class="img-container"> -->
     <div class="inner-image-container mt-[25px] w-[250px] h-[260px]  md:h-[430px] md:w-[430px] m-auto">
       <!-- <div class="md:h-[470px] h-[380px] w-[470px] md:w-[70vw] bg-emerald-500 dark:bg-emerald-800 border-2 border-solid border-black rounded-[50%] dark:border-none"> -->
       <img src="img.png" alt="image"
@@ -195,42 +408,45 @@
 
 
   <!-- SECTION TWO (About) -->
-  <section id="About" class="section-two h-fit font-serif bg-black  dark:bg-white pt-[30px]  md:pb-[75px] pb-[50px] px-[5vw] ">
+  <section id="About"
+    class="section-two h-fit font-serif bg-black  dark:bg-white pt-[30px]  md:pb-[75px] pb-[50px] px-[5vw] ">
     <h1
-      class=" md:text-[30px] text-[18px] text-emerald-400 border-b-2  dark:border-emerald-800 border-white border-solid dark:text-emerald-700">
+      class=" md:text-[35px] text-[20px] font-bold text-emerald-400 border-b-2  dark:border-emerald-800 border-white border-solid dark:text-emerald-700">
       ABOUT</h1> <br>
 
     <div
       class="section-two-wrapper flex flex-wrap justify-center align-middle gap-[10px] rounded-[10px] h-fit pt-[30px] pb-[40px] text-center">
       <img src="img2.png" alt="image"
-        class="md:h-[400px] md:w-[300px] h-[350px] w-[80vw] border-2 border-solid border-black dark:border-white rounded-[6px]">
+        class="md:h-[400px] md:w-[300px] h-[350px] w-[75vw] border-2 border-solid border-black dark:border-white rounded-[6px]">
       <br> <br>
 
       <div class=" m-auto ml-[-1vw] md:ml-[1vw] mr-[1vw]">
         <h3
           class="favorite-quote text-emerald-400 dark:text-emerald-700 mt-[30px] font-bold text-[15px] md:text-[20px]">
           IF YOU CAN IMAGINE IT, I CAN BUILD IT....</h3> <br>
-       
-          <p class="p-section-two h-fit  md:w-[55vw] w-[90vw] text-[12px] md:text-[16px] rounded-[10px] m-auto text-left text-gray-300 dark:text-black">
+
+        <p
+          class="p-section-two h-fit  md:w-[55vw] w-[90vw] text-[12px] md:text-[16px] rounded-[10px] m-auto text-left text-gray-300 dark:text-black">
           I am a professional Front-End Developer with 2 years of experience in the industry.
           I specialize in crafting visually stunning, responsive and interactive Websites and
           Web Applications, and I love working with the latest technologies to bring my Client's
-          visions and ideas to Life.
+          visions and ideas to Life. <br> <span class="text-[18px] md:text-[20px] text-emerald-400">I build for diverse
+            brands</span>
         </p> <br>
 
         <div class="p-division flex gap-[4px]  justify-center align-middle p-[6px] h-[100px] m-auto text-white">
           <p
-            class="section-two-inner-boxes text-[14px] md:text-[16px] px-[2px] bg-neutral-700 h-fit md:w-[35%] w-[35%] text-white p-[3px] pb-[7px] pt-[8px] rounded-[4px] text-center">
+            class="section-two-inner-boxes text-[14px] md:text-[16px] px-[2px] bg-neutral-800 h-fit md:w-[35%] w-[35%] text-white p-[3px] pb-[7px] pt-[8px] rounded-[4px] text-center">
             <i class="fa-solid fa-user-clock text-emerald-400 md:text-[24px] text-[14px]"
               class="p-[5px] text-[9px] md:text-[22px] rounded-[4px]"></i> <br>
             Experience <br>
-            <sub class="text-[11px] md:text-[14px] font-thin text-neutral-400">1+ years</sub>
+            <sub class="text-[11px] md:text-[14px] font-thin text-neutral-400">2+ years</sub>
           </p>
 
 
 
           <p
-            class="section-two-inner-boxes text-[14px] md:text-[16px] px-[2px] bg-neutral-700 h-fit md:w-[35%] w-[35%] text-white p-[3px] pb-[7px] pt-[8px] rounded-[4px] text-center">
+            class="section-two-inner-boxes text-[14px] md:text-[16px] px-[2px] bg-neutral-800 h-fit md:w-[35%] w-[35%] text-white p-[3px] pb-[7px] pt-[8px] rounded-[4px] text-center">
             <i class="fa-solid fa-check-circle text-emerald-400  md:text-[24px] text-[14px]"
               class="p-[5px] text-[9px] md:text-[22px] rounded-[4px]"></i> <br>
             Completed <br>
@@ -239,7 +455,7 @@
 
 
           <p
-            class="section-two-inner-boxes text-[14px] md:text-[16px] bg-neutral-700 h-fit md:w-[35%] w-[30%] text-white p-[3px] pb-[7px] pt-[8px] rounded-[4px] text-center">
+            class="section-two-inner-boxes text-[14px] md:text-[16px] bg-neutral-800 h-fit md:w-[35%] w-[30%] text-white p-[3px] pb-[7px] pt-[8px] rounded-[4px] text-center">
             <i class="fa-solid fa-headset text-emerald-400  md:text-[24px] text-[14px]"
               class="p-[5px] text-[9px] md:text-[22px] rounded-[4px]"></i> <br>
             Support <br>
@@ -251,7 +467,7 @@
 
         <div class="p-division flex gap-[4px]  justify-center align-middle p-[6px] h-[100px] m-auto text-white">
           <p
-            class="section-two-inner-boxes text-[14px] md:text-[16px] px-[2px] bg-neutral-700 h-fit md:w-[35%] w-[35%] text-white p-[3px] pb-[7px] pt-[8px] rounded-[4px] text-center">
+            class="section-two-inner-boxes text-[14px] md:text-[16px] px-[2px] bg-neutral-800 h-fit md:w-[35%] w-[35%] text-white p-[3px] pb-[7px] pt-[8px] rounded-[4px] text-center">
             <i class="fas fa-certificate text-emerald-400  md:text-[24px] text-[14px]"
               class="p-[5px] text-[9px] md:text-[22px] rounded-[4px]"></i><br>
             Certification <br>
@@ -261,7 +477,7 @@
 
 
           <p
-            class=".section-two-inner-boxes text-[14px] md:text-[16px] px-[2px] bg-neutral-700 h-fit md:w-[35%] w-[35%] text-white p-[3px] pb-[7px] pt-[8px] rounded-[4px] text-center">
+            class=".section-two-inner-boxes text-[14px] md:text-[16px] px-[2px] bg-neutral-800 h-fit md:w-[35%] w-[35%] text-white p-[3px] pb-[7px] pt-[8px] rounded-[4px] text-center">
             <i class="fa-brands fa-github text-emerald-400  md:text-[24px] text-[14px]"
               class="p-[5px] text-[9px] md:text-[22px] rounded-[4px]"></i><br>
             Freelancing <br>
@@ -270,7 +486,7 @@
 
 
           <p
-            class="section-two-inner-boxes text-[14px] md:text-[16px] bg-neutral-700 h-fit md:w-[35%] w-[30%] text-white p-[3px] pb-[7px] pt-[8px] rounded-[4px] text-center">
+            class="section-two-inner-boxes text-[14px] md:text-[16px] bg-neutral-800 h-fit md:w-[35%] w-[30%] text-white p-[3px] pb-[7px] pt-[8px] rounded-[4px] text-center">
             <i class="fa-solid fa-smile text-emerald-400  md:text-[24px] text-[14px]"
               class="p-[5px] text-[9px] md:text-[22px] rounded-[4px]"></i><br>
             Satisfied <br>
@@ -285,65 +501,65 @@
 
 
   <!-- SECTION THREE (Education) -->
-  <section id="Education" class=" h-fit font-serif md:pt-[50px]   md:pb-[85px] pb-[50px] px-[5vw] bg-black  dark:bg-white">
+  <section id="Education"
+    class=" h-fit font-serif md:pt-[50px]   md:pb-[85px] pb-[50px] px-[5vw] bg-black  dark:bg-white">
     <h1
-      class="section-three-title  md:text-[30px] mb-[60px] text-[18px] text-emerald-400 border-b-2  dark:border-emerald-800 border-white border-solid dark:text-emerald-700">
+      class="section-three-title  md:text-[35px] mb-[60px] text-[20px]  font-bold text-emerald-400 border-b-2  dark:border-emerald-800 border-white border-solid dark:text-emerald-700">
       EDUCATION</h1>
 
 
     <div
       class="resume-div-wrapper w-[92%] rounded-[10px] m-auto mt-[5px] flex flex-wrap gap-[10px] justify-between align-middle h-fit pt-[10px] px-[2vw] pb-[5px]">
-      <div class="resume-div  bg-neutral-700 rounded-[10px] h-fit md:w-[45%] w-[90vw] p-[15px]">
+      <div class="resume-div  bg-neutral-800 rounded-[10px] h-fit md:w-[45%] w-[90vw] p-[15px]">
         <h3 class="year-duration  text-emerald-400 font-bold text-[14px]  md:text-[20px]">2023 - 2024</h3><br>
-        <h4 class="degree-attained text-white text-[18px] mt-[-6px] mb-[3px] font-bold">Meta Front-End Developer Professional Certificate</h4>
-        <sub class="attained-where  bg-emerald-400 text-black p-[4px] font-bold rounded-[2px]">META  </sub><br>
-      
+        <h4 class="degree-attained text-white text-[18px] mt-[-6px] mb-[3px] font-bold">Meta Front-End Developer
+          Professional Certificate</h4>
+        <sub class="attained-where  bg-emerald-400 text-black p-[4px] font-bold rounded-[2px]">META </sub><br>
+
         <p class="description  text-neutral-300 md:text-[16px] text-[13px] mt-3">
-          Completed a 4-month intensive training in Front-End Development. 
+          Completed a 4-month intensive training in Front-End Development.
           This includes proficiency in HTML, CSS, BootStrap, JavaScript, React.js and UI/UX Design
         </p>
       </div>
 
 
-      <div class="resume-div  bg-neutral-700 rounded-[10px] h-fit md:w-[45%] w-[90vw] p-[15px]">
+      <div class="resume-div  bg-neutral-800 rounded-[10px] h-fit md:w-[45%] w-[90vw] p-[15px]">
         <h3 class="year-duration  text-emerald-400 font-bold text-[14px]  md:text-[20px]">May 2023 - Oct. 2023</h3><br>
-        <h4 class="degree-attained text-white text-[18px] mt-[-6px] mb-[3px] font-bold">Front-End Development Training and Certification</h4>
-        <sub class="attained-where   bg-emerald-400 text-black p-[4px] font-bold rounded-[2px]">LASKILL TRAINING CENTER</sub><br>
-        <p class="description text-neutral-300 md:text-[16px] text-[13px] mt-3"> Completed a 4-month intensive training in Front-End Development. 
+        <h4 class="degree-attained text-white text-[18px] mt-[-6px] mb-[3px] font-bold">Front-End Development Training
+          and Certification</h4>
+        <sub class="attained-where   bg-emerald-400 text-black p-[4px] font-bold rounded-[2px]">LASKILL TRAINING
+          CENTER</sub><br>
+        <p class="description text-neutral-300 md:text-[16px] text-[13px] mt-3"> Completed a 4-month intensive training
+          in Front-End Development.
           This includes proficiency in HTML, CSS, JavaScript, Tailwind, and React.js</p>
       </div>
 
 
-      <div class="resume-div  bg-neutral-700 rounded-[10px] h-fit md:w-[45%] w-[90vw] p-[15px]">
+      <div class="resume-div  bg-neutral-800 rounded-[10px] h-fit md:w-[45%] w-[90vw] p-[15px]">
         <h3 class="year-duration  text-emerald-400 font-bold text-[14px]  md:text-[20px]">2017 - 2023</h3><br>
-        <h4 class="degree-attained text-white text-[18px] mt-[-6px] mb-[3px] font-bold">B.Eng. Electrical/Electronics Engineering (Power Systems Engineering) </h4>
+        <h4 class="degree-attained text-white text-[18px] mt-[-6px] mb-[3px] font-bold">B.Eng. Electrical/Electronics
+          Engineering (Power Systems Engineering) </h4>
         <sub class="attained-where  bg-emerald-400 text-black p-[4px] font-bold rounded-[2px]">
           UNIVERSITY OF UYO, UYO</sub><br>
-        <p class="description text-neutral-300 md:text-[16px] text-[13px] mt-3">Completed a 5-year Bachelors degree in Electrical/Electronics Engineering 
-          with a specialization in Power Systems Engineering. 
-          </p>
+        <p class="description text-neutral-300 md:text-[16px] text-[13px] mt-3">Completed a 5-year Bachelors degree in
+          Electrical/Electronics Engineering
+          with a specialization in Power Systems Engineering.
+        </p>
       </div>
 
 
 
-      <!-- <div class="resume-div  bg-neutral-700 rounded-[10px] h-fit md:w-[45%] w-[90vw] p-[15px]">
-        <h3 class="year-duration  text-emerald-400 font-bold text-[14px]  md:text-[20px]">May 2023 - Oct. 2023</h3><br>
-        <h4 class="degree-attained text-white text-[18px] mt-[-6px] mb-[3px] font-bold">Front-End Development Training</h4>
-        <sub class="attained-where  bg-emerald-400 text-black p-[4px] font-bold rounded-[2px]">LASkill Training Center</sub><br>
-        <p class="description text-white md:text-[16px] text-[14px] mt-3"> Completed a 4-month intensive training in Front-End Development. 
-          This includes proficiency in HTML, CSS, JavaScript, Tailwind, and React.js</p>
-      </div> -->
-
-
-      <div class="resume-div  bg-neutral-700 rounded-[10px] h-fit md:w-[45%] w-[90vw] p-[15px]">
+      <div class="resume-div  bg-neutral-800 rounded-[10px] h-fit md:w-[45%] w-[90vw] p-[15px]">
         <h3 class="year-duration  text-emerald-400 font-bold text-[14px]  md:text-[20px]">2022</h3><br>
-        <h4 class="degree-attained text-white text-[18px] mt-[-6px] mb-[3px] font-bold">Professional Front-End Development Certification<h4>
-        <sub class="attained-where  bg-emerald-400 text-black p-[4px] font-bold rounded-[2px]">
-          INSTITUTE OF MANAGEMENT, TECHNOLOGY & FINANCE(MTF)
-        </sub><br>
-        <p class="description text-neutral-300 md:text-[16px] text-[13px] mt-3"> 
-          Completed a 6-month training in Front-End Development with a specialization in JavaScript, DOM manipulation, AJAX & JS Animation
-         </p>
+        <h4 class="degree-attained text-white text-[18px] mt-[-6px] mb-[3px] font-bold">Professional Front-End
+          Development Certification<h4>
+            <sub class="attained-where  bg-emerald-400 text-black p-[4px] font-bold rounded-[2px]">
+              INSTITUTE OF MANAGEMENT, TECHNOLOGY & FINANCE(MTF)
+            </sub><br>
+            <p class="description text-neutral-300 md:text-[16px] text-[13px] mt-3">
+              Completed a 6-month training in Front-End Development with a specialization in JavaScript, DOM
+              manipulation, AJAX & JS Animation
+            </p>
       </div>
     </div>
   </section>
@@ -351,13 +567,14 @@
 
 
   <!-- SECTION FOUR (skills) -->
-  <section id="Skills" class=" font-serif pt-[30px] md:px-[5vw] px-[3vw] bg-black dark:bg-white h-fit md:pb-[95px] pb-[65px]">
+  <section id="Skills"
+    class=" font-serif pt-[30px] md:px-[5vw] px-[3vw] bg-black dark:bg-white h-fit md:pb-[95px] pb-[65px]">
     <h1
-      class=" md:text-[30px] text-[18px] text-emerald-400 border-b-2  dark:border-emerald-800 border-white border-solid dark:text-emerald-700">
+      class=" md:text-[35px] text-[20px]  font-bold text-emerald-400 border-b-2  dark:border-emerald-800 border-white border-solid dark:text-emerald-700">
       SKILLS</h1> <br><br>
 
     <div
-      class="md:w-[80vw] w-[94vw] flex flex-wrap justify-center align-middle gap-[4px] h-fit rounded-[15px] m-auto pt-[20px] bg-neutral-700 mt-[10px] pb-[15px] px-[5px]">
+      class="md:w-[80vw] w-[94vw] flex flex-wrap justify-center align-middle gap-[4px] h-fit rounded-[15px] m-auto pt-[20px] bg-neutral-800 mt-[10px] pb-[15px] px-[5px]">
       <div class=" h-fit w-[30%] m-auto pt-[10px] md:pl-[20px] pl-[10px]  md:pb-[30px] pb-[12px]">
         <p class="skills-text text-white md:text-[16px] text-[12px]"> <i
             class="fa-solid fa-circle-check text-emerald-400 md:text-[16px] text-[12px]"></i> HTML</p><br>
@@ -396,11 +613,11 @@
         <p class="skills-text text-white md:text-[16px] text-[12px]"> <i
             class="fa-solid fa-circle-check text-emerald-400 md:text-[16px] text-[12px]"></i> Anime.js</p><br>
         <p class="skills-text text-white md:text-[16px] text-[12px]"> <i
-            class="fa-solid fa-circle-check text-emerald-400 md:text-[16px] text-[12px]"></i>Figma</p><br>
+            class="fa-solid fa-circle-check text-emerald-400 md:text-[16px] text-[12px]"></i> Figma</p><br>
         <p class="skills-text text-white md:text-[16px] text-[12px]"> <i
-            class="fa-solid fa-circle-check text-emerald-400 md:text-[16px] text-[12px]"></i>Firebase</p><br>
+            class="fa-solid fa-circle-check text-emerald-400 md:text-[16px] text-[12px]"></i> Firebase</p><br>
         <p class="skills-text text-white md:text-[16px] text-[12px]"> <i
-            class="fa-solid fa-circle-check text-emerald-400 md:text-[16px] text-[12px]"></i>TypeScript</p>
+            class="fa-solid fa-circle-check text-emerald-400 md:text-[16px] text-[12px]"></i> TypeScript</p>
       </div>
     </div>
   </section>
@@ -408,111 +625,169 @@
 
 
   <!-- SECTION FIVE-A -->
-  <section id="Services" class="bg-black font-serif md:pt-[40px]  pt-[20px] h-fit  md:pb-[55px] pb-[30px]  px-[5vw] dark:bg-white  ">
-    
-     <h1  class=" md:text-[30px] text-[18px] text-emerald-400 border-b-2  dark:border-emerald-800 border-white border-solid dark:text-emerald-700">
+  <section id="Services"
+    class="bg-black font-serif md:pt-[40px]  pt-[20px] h-fit  md:pb-[55px] pb-[30px]  px-[5vw] dark:bg-white  ">
+
+    <h1
+      class=" md:text-[35px] text-[20px] font-bold text-emerald-400 border-b-2  dark:border-emerald-800 border-white border-solid dark:text-emerald-700">
       SERVICES</h1> <br><br>
 
     <section class="section-five-A flex flex-wrap gap-[20px] justify-center align-middle  h-fit py-[25px] ">
-      
-      <div class="services-box">
-            <img class="imageBox" src="rwd.jpg" alt="image">
-            <div class="details">
-                <h1 class="h1-details">RESPONSIVE WEB DESIGN</h1><br>
-                <p class="p-details">I create websites that work seamlessly on various devices and screen sizes. From concept to pixel-perfect execution.
-                </p>
-            </div>
-        </div>
-
 
       <div class="services-box">
-            <img class="imageBox" src="uiux.jpg" alt="image">
-            <div class="details">
-                <h1 class="h1-details">UI/UX DESIGN</h1><br>
-                <p class="p-details">I craft interfaces that are not only visually appealing but also intuitively functional.
-                </p>
-            </div>
+        <img class="imageBox" src="rwd.jpg" alt="image">
+        <div class="details">
+          <h1 class="h1-details">RESPONSIVE WEB DESIGN</h1><br>
+          <p class="p-details">I create websites that work seamlessly on various devices and screen sizes. From concept
+            to pixel-perfect execution.
+          </p>
         </div>
+      </div>
 
 
-        <div class="services-box">
-            <img class="imageBox" src="smi.jpg" alt="image">
-            <div class="details">
-                <h1 class="h1-details">SOCIAL MEDIA INTEGRATION</h1> <br>
-                <p class="p-details">I can help you connect with your audience by integrating social media seamlessly into your web presence.
-                </p>
-            </div>
+      <div class="services-box">
+        <img class="imageBox" src="uiux.jpg" alt="image">
+        <div class="details">
+          <h1 class="h1-details">UI/UX DESIGN</h1><br>
+          <p class="p-details">I craft interfaces that are not only visually appealing but also intuitively functional.
+          </p>
         </div>
+      </div>
 
 
-        <div class="services-box">
-            <img class="imageBox" src="ecomm.jpg" alt="image">
-            <div class="details">
-                <h1 class="h1-details">E-COMMERCE SOLUTION</h1> <br>
-                <p class="p-details">I specialize in building ecommerce platforms that make buying and selling online a breeze.
-                </p>
-            </div>
+      <div class="services-box">
+        <img class="imageBox" src="smi.jpg" alt="image">
+        <div class="details">
+          <h1 class="h1-details">SOCIAL MEDIA INTEGRATION</h1> <br>
+          <p class="p-details">I can help you connect with your audience by integrating social media seamlessly into
+            your web presence.
+          </p>
         </div>
+      </div>
+
+
+      <div class="services-box">
+        <img class="imageBox" src="ecomm.jpg" alt="image">
+        <div class="details">
+          <h1 class="h1-details">E-COMMERCE SOLUTION</h1> <br>
+          <p class="p-details">I specialize in building ecommerce platforms that make buying and selling online a
+            breeze.
+          </p>
+        </div>
+      </div>
     </section> <br>
 
 
 
 
+
+
+
+
+
     <!-- SECTION FIVE-B  -->
-    <section  class="section-five-B  bg-black dark:bg-white   flex flex-wrap gap-[20px] justify-center align-middle  h-fit pt-[20px]  md:pb-[75px] pb-[50px]">
+    <section
+      class="section-five-B  bg-black dark:bg-white   flex flex-wrap gap-[20px] justify-center align-middle  h-fit pt-[20px]  md:pb-[75px] pb-[50px]">
       <div class="services-box">
-          <img class="imageBox" src="training.jpg" alt="image">
-          <div class="details">
-              <h1 class="h1-details">CONSULTATION & TRAINING</h1> <br><br>
-              <p class="p-details">I provide expert consultation and trainings to demystify the complexities of Web Development.
-              </p>
-          </div>
+        <img class="imageBox" src="training.jpg" alt="image">
+        <div class="details">
+          <h1 class="h1-details">CONSULTATION & TRAINING</h1> <br><br>
+          <p class="p-details">I provide expert consultation and trainings to demystify the complexities of Web
+            Development.
+          </p>
+        </div>
       </div>
 
 
       <div class="services-box">
-          <img class="imageBox" src="maintenance.jpg" alt="image">
-          <div class="details">
-              <h1 class="h1-details">WEB MAINTENANCE & SUPPORT</h1> <br><br>
-              <p class="p-details">I provide round-the-clock support and maintenance services. Your online presence is in safe hands.
-              </p>
-          </div>
+        <img class="imageBox" src="maintenance.jpg" alt="image">
+        <div class="details">
+          <h1 class="h1-details">WEB MAINTENANCE & SUPPORT</h1> <br><br>
+          <p class="p-details">I provide round-the-clock support and maintenance services. Your online presence is in
+            safe hands.
+          </p>
+        </div>
       </div>
 
 
       <div class="services-box">
-          <img class="imageBox" src="ecomm.jpg" alt="image">
-          <div class="details">
-              <h1 class="h1-details">CROSS-PLATFORM COMPATIBILITY TESTING</h1> <br><br>
-              <p class="p-details">I ensure your website's perfection everywhere. Every device, Every browser!.
-              </p>
-          </div>
+        <img class="imageBox" src="ecomm.jpg" alt="image">
+        <div class="details">
+          <h1 class="h1-details">CROSS-PLATFORM COMPATIBILITY TESTING</h1> <br><br>
+          <p class="p-details">I ensure your website's perfection everywhere. Every device, Every browser!.
+          </p>
+        </div>
       </div>
 
 
       <div class="services-box">
-          <img class="imageBox" src="seo.jpg" alt="image">
-          <div class="details">
-              <h1 class="h1-details">SEARCH ENGINE OPTIMIZATION (SEO)</h1> <br>
-              <p class="p-details"> 
-                I ensure that all websites i create are optimized for search engines.
-              </p>
-          </div>
+        <img class="imageBox" src="seo.jpg" alt="image">
+        <div class="details">
+          <h1 class="h1-details">SEARCH ENGINE OPTIMIZATION (SEO)</h1> <br>
+          <p class="p-details">
+            I ensure that all websites i create are optimized for search engines.
+          </p>
+        </div>
       </div>
     </section>
   </section>
 
 
 
+  <section class="font-serif pt-[45px] h-fit md:pb-[95px] pb-[60px] pl-[4vw]  pr-[5vw] bg-black dark:bg-white  ">
+
+    <h1 class="text-[20px] font-mono md:text-[40px] text-emerald-500 underline mb-8">Beyond the Technical Canvas:</h1>
+    <div
+      class="bg-neutral-800 md:mb-[120px] mb-[80px] md:p-[20px] p-[15px] border-l-[10px] border-emerald-500  rounded-[10px]">
+      <p class="md:text-[20px] text-[16px] text-neutral-300">While I take pride in my technical capabilities, I believe
+        that soft skills are equally important. I am a strong communicator. I also collaborate effectively with
+        Designers, Back-End Developers, and Clients to translate visions into reality.
+        I'm a relentless learner, always seeking new technologies and trends to push the boundaries of what's possible.
+      </p>
+
+
+    </div>
+
+
+
+
+    <h1 class="text-[20px] font-mono md:text-[40px] text-emerald-500 underline mb-8">💡 My Values:</h1>
+    <div class="bg-neutral-800 p-[15px] rounded-[10px] border-r-[10px] border-emerald-500  mb-6">
+      <p class="text-[16px] md:text-[18px] text-neutral-400"><span
+          class="md:text-[22px] text-[18px] text-neutral-100">User-Centricity: </span>Every decision starts with the
+        user, resulting in intuitive interfaces and enjoyable experiences.</p><br>
+
+      <p class="text-[16px] md:text-[18px] text-neutral-400"><span
+          class="md:text-[22px] text-[18px] text-neutral-100">Quality Craftsmanship: </span>Clean, efficient, and well
+        documented code is my hallmark, ensuring long-term maintainability.</p><br>
+
+      <p class="text-[16px] md:text-[18px] text-neutral-400"><span
+          class="md:text-[22px] text-[18px] text-neutral-100">Constant Evolution: </span>I believe in pushing my limits,
+        embracing new challenges and technologies to create ever-better solutions.</p><br>
+
+      <p class="text-[16px] md:text-[18px] text-neutral-400"><span
+          class="md:text-[22px] text-[18px] text-neutral-100">Collaboration: </span>I believe in the power of teamwork
+        and enjoy working closely with others to achieve shared goals.</p><br>
+
+
+    </div>
+
+
+  </section>
+
+
   <!-- SECTION SIX -->
-  <section id="Projects" class="font-serif pt-[45px] h-fit md:pb-[95px] pb-[60px] pl-[4vw]  pr-[5vw] bg-black dark:bg-white  ">
+  <section id="Projects"
+    class="font-serif pt-[45px] h-fit md:pb-[95px] pb-[60px] pl-[4vw]  pr-[5vw] bg-black dark:bg-white  ">
     <h1
-      class=" md:text-[30px] text-[18px] text-emerald-400 border-b-2  dark:border-emerald-800 border-white border-solid dark:text-emerald-700">
+      class=" md:text-[35px] text-[20px]  font-bold text-emerald-400 border-b-2  dark:border-emerald-800 border-white border-solid dark:text-emerald-700">
       PROJECTS</h1> <br><br>
 
-    <div class="projects-wrapper  h-fit px-[3vw] pb-[15px] pt-[7px] flex flex-wrap justify-between align-middle gap-[20px] m-auto">
-      
-      <div  class="project-container mb-[20px]  bg-neutral-700  h-[300px] w-[330px] border-2 border-solid border-black hover:border-emerald-400 dark:border-white rounded-[10px] m-auto pt-[5px] text-center ">
+    <div
+      class="projects-wrapper  h-fit px-[3vw] pb-[15px] pt-[7px] flex flex-wrap justify-between align-middle gap-[20px] m-auto">
+
+      <div
+        class="project-container mb-[20px]  bg-neutral-700  h-[300px] w-[330px] border-2 border-solid border-black hover:border-emerald-400 dark:border-white rounded-[10px] m-auto pt-[5px] text-center ">
         <div class="section-six-img-container h-[200px] w-[320px] m-auto rounded-[4px]">
           <img src="habana.jpg" alt="image" class="imgclass h-[100%] w-[100%]">
         </div>
@@ -523,7 +798,7 @@
             Code</button> &nbsp; &nbsp;
           <button
             class="section-six-button go-live bg-black text-emerald-400 rounded-[5px] p-[3px] text-[14px] hover:bg-emerald-400 hover:text-black border-emerald-400 border-solid border-[1px] ">
-          <a href="https://habana-phi.vercel.app/#about">Live Demo</a></button></span>
+            <a href="https://habana-phi.vercel.app/#about">Live Demo</a></button></span>
       </div>
 
 
@@ -540,7 +815,7 @@
         <button
           class="section-six-button go-live bg-black text-emerald-400  border-[1px] border-emerald-400 border-solid rounded-[5px]  hover:bg-emerald-400 hover:text-black p-[3px] text-[14px]">
           <a href="http://simple.app">Live Demo</a>
-          </button>
+        </button>
       </div>
 
 
@@ -557,7 +832,7 @@
         <button
           class="section-six-button go-live bg-black text-emerald-400 border-[1px] border-emerald-400 border-solid rounded-[5px] p-[3px] text-[14px]  hover:bg-emerald-400 hover:text-black">
           <a href="http://yumhub.netlify.app">Live Demo</a>
-          </button>
+        </button>
       </div>
     </div> <br>
 
@@ -575,8 +850,9 @@
         <button
           class="section-six-button bg-emerald-400 p-[3px] rounded-[5px] text-[14px] hover:bg-black hover:text-emerald-400">View
           Code</button> &nbsp; &nbsp;
-        
-        <button onclick="buttonReport();"  class="section-six-button go-live bg-black text-emerald-400 border-[1px] border-emerald-400 border-solid rounded-[5px]  p-[3px] text-[14px]  hover:bg-emerald-400 hover:text-black">Live
+
+        <button onclick="buttonReport();"
+          class="section-six-button go-live bg-black text-emerald-400 border-[1px] border-emerald-400 border-solid rounded-[5px]  p-[3px] text-[14px]  hover:bg-emerald-400 hover:text-black">Live
           Demo</button>
       </div>
 
@@ -591,9 +867,10 @@
         <button
           class="section-six-button bg-emerald-400 p-[3px] rounded-[5px] text-[14px] hover:bg-black hover:text-emerald-400">View
           Code</button> &nbsp; &nbsp;
-        
-        <button  class="section-six-button go-live bg-black text-emerald-400 border-[1px] border-emerald-400 border-solid rounded-[5px]  p-[3px] text-[14px]  hover:bg-emerald-400 hover:text-black">
-         <a href="http://Knowshare-alx.vercel.app">Live Demo</a></button>
+
+        <button
+          class="section-six-button go-live bg-black text-emerald-400 border-[1px] border-emerald-400 border-solid rounded-[5px]  p-[3px] text-[14px]  hover:bg-emerald-400 hover:text-black">
+          <a href="http://Knowshare-alx.vercel.app">Live Demo</a></button>
       </div>
 
 
@@ -603,12 +880,13 @@
           <img src="netflix.jpg" alt="image" class="imgclass  h-[100%] w-[100%]">
         </div>
         <p class="project-title text-white md:text-[20px] text-[18px] font-semibold font-serif mt-[6px] mb-[-10px]">
-        Netflix Clone</p> <br>
+          Netflix Clone</p> <br>
         <button
           class="section-six-button w-fit bg-emerald-400 p-[4px] px-[4px] rounded-[5px] text-[13px] hover:bg-black hover:text-emerald-400">View
           Code</button> &nbsp; &nbsp;
-      
-        <button class="bg-black text-emerald-400   border-[1px] border-emerald-400 border-solid rounded-[5px]  p-[3px]  text-[13px]  hover:bg-emerald-400 hover:text-black">
+
+        <button
+          class="bg-black text-emerald-400   border-[1px] border-emerald-400 border-solid rounded-[5px]  p-[3px]  text-[13px]  hover:bg-emerald-400 hover:text-black">
           <a href="https://nkays-filmpire.vercel.app/">Live Demo</a>
         </button>
 
@@ -622,199 +900,230 @@
   </script>
 
 
-      <!-- SECTION SEVEN  -->
-      <section id="Contact" class="section-seven font-serif h-fit bg-black px-[4vw]  md:pb-[75px] pb-[55px] dark:bg-white">
-        <h1
-          class=" md:text-[30px] text-[18px] text-emerald-400 border-b-2  dark:border-emerald-800 border-white border-solid dark:text-emerald-700">
-          CONTACT</h1> <br><br>
+  <!-- SECTION SEVEN  -->
+  <section id="Contact" class="section-seven font-serif h-fit bg-black px-[4vw]  md:pb-[75px] pb-[55px] dark:bg-white">
+    <h1
+      class=" md:text-[35px]  font-bold text-[20px] text-emerald-400 border-b-2  dark:border-emerald-800 border-white border-solid dark:text-emerald-700">
+      CONTACT</h1> <br><br>
 
-        <div class="m-auto text-center">
-          <h1 class="md:text-[26px] text-[18px] font-semibold text-emerald-400 dark:text-emerald-800">Leave a message for me
-          </h1>
+    <div class="m-auto text-center">
+      <h1 class="md:text-[26px] text-[18px] font-semibold text-emerald-400 dark:text-emerald-800">Leave a message for me
+      </h1>
+    </div>
+
+    <div
+      class="form-wrapper p-[2vw] flex flex-wrap justify-between gap-[10px] align-middle h-fit w-[92vw]  m-auto  text-center ">
+
+
+      <div class="md:h-[450px] h-[250px] md:w-[52%] w-[100%] ">
+        <img src="contactme.jpg" alt="image" class="h-[100%]">
+      </div>
+
+
+      <div class="md:w-[46%] h-[450px]   w-[100%]  pt-[25px]">
+        <!-- <label for="">Name:</label> -->
+
+        <form id="js-form">
+          <input type="" id="" placeholder="Input your name here"
+            class="js-input w-[100%] h-[40px] text-white border-2 border-solid dark:border-[3px]  border-emerald-400 dark:border-emerald-800 rounded-[20px] pl-[10px] bg-transparent outline-none">
+          <br> <br>
+
+          <input type="email " id=""
+            class="js-input w-[100%] h-[40px] text-white border-2 border-solid border-emerald-400 dark:border-emerald-800 dark:border-[3px]  rounded-[20px] pl-[10px] bg-transparent outline-none"
+            id="" placeholder="Input your email address here"
+            class="w-[90%] h-[40px] text-white border-2 border-solid border-emerald-400 rounded-[20px] pl-[10px] bg-transparent outline-none"
+            placeholder="Enter your email address"
+            class="w-[90%] h-[40px] text-white border-2 border-solid border-emerald-400 rounded-[20px] pl-[10px] bg-transparent outline-none">
+          <br> <br>
+
+
+          <textarea id="" cols="30" rows="10" placeholder="Leave your message"
+            class="text-white w-[100%] h-[230px] rounded-[20px] resize-none  border-2 dark:border-[3px]  border-solid border-emerald-400 dark:border-emerald-800  focus:border-emerald-400 bg-transparent pl-[10px] pt-[10px]"></textarea>
+          <br>
+          <button onclick="clickButton();"
+            class="send-btn h-[40px] w-[120px] rounded-[20px] text-black border-none font-bold bg-emerald-400 mt-3">Send
+            &nbsp; &nbsp; <i class="fa-solid fa-paper-plane"></i> </button>
+        </form>
+      </div>
+    </div>
+
+
+
+
+
+    <script>
+      function clickButton() {
+        let inputField = document.querySelector('.js-input');
+        let checkValue = inputField.value;
+
+        if (inputField.value === '') {
+          alert("Input fields cannot be empty")
+        } else {
+          alert('Your message has been sent');
+          // e.preventDefault();
+          document.getElementById('js-form').reset();
+          // location.reload();
+        };
+
+      };
+    </script>
+  </section>
+
+
+
+  <!-- SECTION-SEVEN-B  -->
+  <section
+    class="px-[4vw]  md:pb-[75px] pb-[50px] pt-[15px] md:pt-[30px] bg-black dark:bg-white flex md:gap-[30px] gap-[10px] flex-wrap justify-center align-middle">
+
+    <div
+      class="md:w-[110px] w-[65px] text-center md:h-[110px] h-[65px] rounded-[50%] hover:bg-neutral-800 md:pt-[18px] pt-[14px]">
+      <i class="fa-solid fa-envelope md:text-[36px] text-[20px] text-emerald-600 "></i> <br>
+      <p class="text-neutral-400 hover:underline hover:text-emerald-400 md:text-[16px] text-[10px]"> <a
+          href="mail to:bassey214@gmail.com">Email</a></p> <br>
+    </div>
+
+
+    <div
+      class="md:w-[110px] w-[65px]  md:h-[110px] h-[65px] rounded-[50%] text-center  hover:bg-neutral-800 md:pt-[18px] pt-[14px]">
+      <i class="fa-brands fa-whatsapp md:text-[36px] text-[20px] text-emerald-600  font-bold"></i> <br>
+      <p class="text-neutral-400 hover:underline  hover:text-emerald-400 md:text-[16px] text-[10px]"><a
+          href="https://wa.me/+2349017105774">WhatsApp</a></p><br>
+    </div>
+
+
+    <div
+      class="md:w-[110px] w-[65px] rounded-[50%] text-center md:h-[110px] h-[65px]  hover:bg-neutral-800 md:pt-[18px] pt-[14px]">
+      <i class="fa-brands fa-linkedin md:text-[36px] text-[20px]  text-emerald-600  font-bold"></i><br>
+      <p class="text-neutral-400 hover:underline  hover:text-emerald-400 md:text-[16px] text-[10px]"><a
+          href="https://linkedin.com/in/emmanuel-bassey-0163b023b">LinkedIn</a></p><br>
+    </div>
+
+
+    <div
+      class="md:w-[110px] w-[65px] rounded-[50%] text-center md:h-[110px] h-[65px]  hover:bg-neutral-800 md:pt-[18px] pt-[14px]">
+      <i class="fa-brands fa-facebook md:text-[36px] text-[20px] text-emerald-600   font-bold"></i><br>
+      <p class="text-neutral-400 hover:underline  hover:text-emerald-400 md:text-[16px] text-[10px]"><a
+          href="https://www.facebook.com/profile.php?id=100008421392461&mibextid=ZbWKwL">Facebook</a></p><br>
+    </div>
+
+
+    <div
+      class="md:w-[110px] w-[65px] rounded-[50%] text-center md:h-[110px] h-[65px]  hover:bg-neutral-800 md:pt-[18px] pt-[14px]">
+      <i class="fa-brands fa-telegram md:text-[36px] text-[20px]  text-emerald-600  font-bold"></i><br>
+      <p class="text-neutral-400 hover:underline  hover:text-emerald-400 md:text-[16px] text-[10px]"><a
+          href="https://t.me/emmyquincy2">Telegram</a></p><br>
+    </div>
+  </section>
+
+
+
+  <!-- SECTION-EIGHT -->
+  <section
+    class="bg-black  px-[4vw] text-center flex flex-wrap md:gap-[20px]  md:pt-[100px] pt-[40px] justify-between align-middle h-fit pb-[40px] ">
+    <div class="w-fit h-fit bg-emerald-400 px-2">
+      <p class="text-black md:text-[38px] text-[20px]">I start with a <span
+          class="md:text-[50px] text-[24px] text-black">SKETCH</span></p>
+    </div>
+
+
+
+    <div class="w-fit h-fit bg-black mt-[20px]">
+      <p class="text-white  md:text-[38px] text-[20px]">and end with a <span
+          class="text-[24px] md:text-[50px] text-white">MASTERPIECE</span></p>
+    </div>
+  </section>
+
+
+
+  <!-- SECTION-EIGHT B-->
+  <div
+    class="bg-black dark:bg-white px-[6vw]  flex flex-wrap justify-between align-middle  gap-[10px] text-center md:h-fit h-[500px] md:pb-[105px] pb-[1px] pt-[50px] md:pt-[110px]">
+    <img src="ggt.jpg" alt="image" class="md:h-[320px] h-[230px] md:w-[460px] w-[90vw]">
+
+    <div class=" h-[320px] w-[460px] text-left md:ml-[1px]">
+      <p class="text-emerald-400 dark:text-emerald-800 md:text-[30px] text-[17px] font-mono">Individuals and Companies
+        trust me with their Front-End Development Projects</p> <br> <br>
+      <p class="text-emerald-400  dark:text-emerald-800 md:text-[28px] text-[20px] md:mb-[10px]  font-mono"> YOU CAN
+        TOO!</p>
+    </div>
+  </div>
+
+
+
+  <!-- SECTION-NINE  -->
+  <section id="Blog"
+    class="section-seven pt-[30px] font-serif h-fit bg-black px-[3vw]  md:pb-[75px] pb-[50px] dark:bg-white">
+    <h1
+      class=" md:text-[35px] text-[20px]  font-bold text-emerald-400 border-b-2  dark:border-emerald-800 border-white border-solid dark:text-emerald-700">
+      BLOG</h1> <br><br><br>
+
+
+
+    <div
+      class="blog-container-wrapper h-fit  m-auto px-[4vw] pb-[15px] pt-[7px] flex flex-wrap justify-between align-middle md:gap-[4vw] gap-[10px]">
+      <div
+        class="blog-container h-fit w-[300px] px-[5px] pb-[8px] border-solid border-[1px] border-emerald-400 dark:border-emerald-800 rounded-[10px] m-auto pt-[5px] text-center">
+        <div class="blog-img-container">
+          <img src="frameworks.png" alt="image" class="blog-imgclass h-[200px] w-[290px] m-auto rounded-[10px]">
         </div>
 
         <div
-          class="form-wrapper p-[2vw] flex flex-wrap justify-between gap-[10px] align-middle h-fit w-[92vw]  m-auto  text-center ">
-
-
-          <div class="md:h-[450px] h-[250px] md:w-[52%] w-[100%] ">
-            <img src="contactme.jpg" alt="image" class="h-[100%]">
-          </div>
-
-
-          <div class="md:w-[46%] h-[450px]   w-[100%]  pt-[25px]">
-            <!-- <label for="">Name:</label> -->
-            <input type="" id="" placeholder="Input your name here"
-              class="w-[100%] h-[40px] text-white border-2 border-solid dark:border-[3px]  border-emerald-400 dark:border-emerald-800 rounded-[20px] pl-[10px] bg-transparent outline-none">
-            <br> <br>
-
-            <!-- <label for="">Email:</label> -->
-            <input type="email " id=""
-              class=" w-[100%] h-[40px] text-white border-2 border-solid border-emerald-400 dark:border-emerald-800 dark:border-[3px]  rounded-[20px] pl-[10px] bg-transparent outline-none"
-              id="" placeholder="Input your email address here"
-              class="w-[90%] h-[40px] text-white border-2 border-solid border-emerald-400 rounded-[20px] pl-[10px] bg-transparent outline-none"
-              placeholder="Enter your email address"
-              class="w-[90%] h-[40px] text-white border-2 border-solid border-emerald-400 rounded-[20px] pl-[10px] bg-transparent outline-none">
-            <br> <br>
-
-
-            <textarea id="" cols="30" rows="10" placeholder="Leave your message"
-              class="text-white w-[100%] h-[230px] rounded-[20px] resize-none  border-2 dark:border-[3px]  border-solid border-emerald-400 dark:border-emerald-800  focus:border-emerald-400 bg-transparent pl-[10px] pt-[10px]"></textarea>
-            <br>
-            <button
-              class="send-btn h-[40px] w-[120px] rounded-[20px] text-black border-none font-bold bg-emerald-400 mt-3">Send
-              &nbsp; &nbsp; <i class="fa-solid fa-paper-plane"></i> </button>
-          </div>
+          class="date-container h-[30px] w-[280px] m-auto mt-[4px] text-emerald-400  dark:text-emerald-800 pt-[3px] text-left ">
+          OCTOBER 16, &nbsp; 2023 &nbsp; (icon)
         </div>
-      </section>
+        <h3 class="post-title text-white dark:text-black text-left pl-[8px] text-[18px] font-bold">The pros and cons of
+          different Front-End frameworks</h3>
+        <p class="post-content text-white text-left pl-[8px] mt-[4px]"><a href="#"
+            class="text-[15px] text-neutral-500 dark:text-neutral-700 hover:underline hover:text-emerald-500">Read
+            more</a> </p>
+      </div>
 
 
-
-      <!-- SECTION-SEVEN-B  -->
-      <section
-        class="px-[4vw]  md:pb-[75px] pb-[50px] pt-[15px] md:pt-[30px] bg-black dark:bg-white flex md:gap-[30px] gap-[10px] flex-wrap justify-center align-middle">
+      <div
+        class="blog-container h-fit w-[300px] px-[5px] pb-[8px] border-solid border-[1px]  dark:border-emerald-800 border-emerald-400 rounded-[10px] m-auto pt-[5px] text-center">
+        <div class="blog-img-container">
+          <img src="ux.png" alt="image" class="blog-imgclass h-[200px] w-[290px] m-auto rounded-[10px]">
+        </div>
 
         <div
-          class="md:w-[110px] w-[65px] text-center md:h-[110px] h-[65px] rounded-[50%] hover:bg-neutral-800 md:pt-[18px] pt-[14px]">
-          <i class="fa-solid fa-envelope md:text-[36px] text-[20px] text-emerald-600 "></i> <br>
-          <p class="text-neutral-400 hover:underline hover:text-emerald-400 md:text-[16px] text-[10px]"> <a
-              href="mail to:bassey214@gmail.com">Email</a></p> <br>
+          class="date-container h-[30px] w-[280px] m-auto mt-[4px] text-emerald-400  dark:text-emerald-800 pt-[3px] text-left ">
+          OCTOBER 16, &nbsp; 2023 &nbsp; (icon)
         </div>
+        <h3 class="post-title text-white dark:text-black text-left pl-[8px] text-[18px] font-bold">The importance of UX
+          in front-End development</h3>
+        <p class="post-content text-white text-left pl-[8px] mt-[4px]"><a href="#"
+            class="text-[15px] text-neutral-500 dark:text-neutral-700 hover:underline hover:text-emerald-500">Read
+            more</a> </p>
+      </div>
 
+
+      <div
+        class="blog-container h-fit w-[300px] px-[5px] pb-[8px] border-solid  dark:border-emerald-800 border-[1px] border-emerald-400 rounded-[10px] m-auto pt-[5px] text-center">
+        <div class="blog-img-container">
+          <img src="download.jpg" alt="image" class="blog-imgclass h-[200px] w-[290px] m-auto rounded-[10px]">
+        </div>
 
         <div
-          class="md:w-[110px] w-[65px]  md:h-[110px] h-[65px] rounded-[50%] text-center  hover:bg-neutral-800 md:pt-[18px] pt-[14px]">
-          <i class="fa-brands fa-whatsapp md:text-[36px] text-[20px] text-emerald-600  font-bold"></i> <br>
-          <p class="text-neutral-400 hover:underline  hover:text-emerald-400 md:text-[16px] text-[10px]"><a
-              href="https://wa.me/+2349017105774">WhatsApp</a></p><br>
+          class="date-container h-[30px] w-[280px] m-auto mt-[4px] text-emerald-400 dark:text-emerald-800 pt-[3px] text-left ">
+          OCTOBER 16, &nbsp; 2023 &nbsp; (icon)
         </div>
+        <h3 class="post-title text-white dark:text-black text-left pl-[8px] text-[18px] font-bold">The future of AI and
+          its impact on web development</h3>
+        <p class="post-content text-white text-left pl-[8px] mt-[4px]"><a href="#"
+            class="text-[15px] text-neutral-500 dark:text-neutral-700 hover:underline hover:text-emerald-500">Read
+            more</a> </p>
+      </div>
 
 
-        <div
-          class="md:w-[110px] w-[65px] rounded-[50%] text-center md:h-[110px] h-[65px]  hover:bg-neutral-800 md:pt-[18px] pt-[14px]">
-          <i class="fa-brands fa-linkedin md:text-[36px] text-[20px]  text-emerald-600  font-bold"></i><br>
-          <p class="text-neutral-400 hover:underline  hover:text-emerald-400 md:text-[16px] text-[10px]"><a
-              href="https://linkedin.com/in/emmanuel-bassey-0163b023b">LinkedIn</a></p><br>
-        </div>
-
-
-        <div
-          class="md:w-[110px] w-[65px] rounded-[50%] text-center md:h-[110px] h-[65px]  hover:bg-neutral-800 md:pt-[18px] pt-[14px]">
-          <i class="fa-brands fa-facebook md:text-[36px] text-[20px] text-emerald-600   font-bold"></i><br>
-          <p class="text-neutral-400 hover:underline  hover:text-emerald-400 md:text-[16px] text-[10px]"><a
-              href="https://www.facebook.com/profile.php?id=100008421392461&mibextid=ZbWKwL">Facebook</a></p><br>
-        </div>
-
-
-        <div
-          class="md:w-[110px] w-[65px] rounded-[50%] text-center md:h-[110px] h-[65px]  hover:bg-neutral-800 md:pt-[18px] pt-[14px]">
-          <i class="fa-brands fa-telegram md:text-[36px] text-[20px]  text-emerald-600  font-bold"></i><br>
-          <p class="text-neutral-400 hover:underline  hover:text-emerald-400 md:text-[16px] text-[10px]"><a
-              href="https://t.me/emmyquincy2">Telegram</a></p><br>
-        </div>
-      </section>
+  </section>
 
 
 
-            <!-- SECTION-EIGHT -->
-            <section class="bg-black  px-[4vw] text-center flex flex-wrap md:gap-[20px]  md:pt-[100px] pt-[40px] justify-between align-middle h-fit pb-[40px] ">
-              <div class="w-fit h-fit bg-emerald-400 px-2">
-                <p class="text-black md:text-[38px] text-[20px]">I start with a  <span class="md:text-[50px] text-[24px] text-black">SKETCH</span></p>
-              </div>
+  <!-- SECTION-TEN  -->
+  <section class="bg-emerald-950 h-[100px] px-[5vw] py-[10px] pt-[15px] text-center">
+    <p class="text-neutral-300">© copyright 2024</p> <br>
+    <p class="text-neutral-300">Built with Love by Emmanuel Bassey</p>
+  </section>
+</body>
 
-
-
-              <div class="w-fit h-fit bg-black mt-[20px]">
-                <p class="text-white  md:text-[38px] text-[20px]">and end with a <span class="text-[24px] md:text-[50px] text-white" >MASTERPIECE</span></p>
-              </div> 
-            </section>
-
-
-
-            <!-- SECTION-EIGHT B-->
-            <div class="bg-black dark:bg-white px-[6vw]  flex flex-wrap justify-between align-middle  gap-[10px] text-center md:h-fit h-[500px] md:pb-[105px] pb-[1px] pt-[50px] md:pt-[110px]">
-              <img src="ggt.jpg" alt="image" class="md:h-[320px] h-[230px] md:w-[460px] w-[90vw]">
-
-              <div class=" h-[320px] w-[460px] text-left md:ml-[1px]">
-              <p class="text-emerald-400 dark:text-emerald-800 md:text-[30px] text-[17px] font-mono">Individuals and Companies trust me with their Front-End Development Projects</p> <br> <br>
-              <p class="text-emerald-400  dark:text-emerald-800 md:text-[28px] text-[20px] md:mb-[10px]  font-mono"> YOU CAN TOO!</p> 
-              </div>
-            </div>
-
-        
-
-              <!-- SECTION-NINE  -->
-              <section id="Blog" class="section-seven pt-[30px] font-serif h-fit bg-black px-[3vw]  md:pb-[75px] pb-[50px] dark:bg-white">
-                <h1
-                  class=" md:text-[30px] text-[18px] text-emerald-400 border-b-2  dark:border-emerald-800 border-white border-solid dark:text-emerald-700">
-                  BLOG</h1> <br><br><br>
-
-
-
-                <div
-                  class="blog-container-wrapper h-fit  m-auto px-[4vw] pb-[15px] pt-[7px] flex flex-wrap justify-between align-middle md:gap-[4vw] gap-[10px]">
-                  <div
-                    class="blog-container h-fit w-[300px] px-[5px] pb-[8px] border-solid border-[1px] border-emerald-400 dark:border-emerald-800 rounded-[10px] m-auto pt-[5px] text-center">
-                    <div class="blog-img-container">
-                      <img src="frameworks.png" alt="image" class="blog-imgclass h-[200px] w-[290px] m-auto rounded-[10px]">
-                    </div>
-
-                    <div
-                      class="date-container h-[30px] w-[280px] m-auto mt-[4px] text-emerald-400  dark:text-emerald-800 pt-[3px] text-left ">
-                      OCTOBER 16, &nbsp; 2023 &nbsp; (icon)
-                    </div>
-                    <h3 class="post-title text-white dark:text-black text-left pl-[8px] text-[18px] font-bold">The pros and cons of
-                      different Front-End frameworks</h3>
-                    <p class="post-content text-white text-left pl-[8px] mt-[4px]"><a href="#"
-                        class="text-[15px] text-neutral-500 dark:text-neutral-700 hover:underline hover:text-emerald-500">Read
-                        more</a> </p>
-                  </div>
-
-
-                  <div
-                    class="blog-container h-fit w-[300px] px-[5px] pb-[8px] border-solid border-[1px]  dark:border-emerald-800 border-emerald-400 rounded-[10px] m-auto pt-[5px] text-center">
-                    <div class="blog-img-container">
-                      <img src="ux.png" alt="image" class="blog-imgclass h-[200px] w-[290px] m-auto rounded-[10px]">
-                    </div>
-
-                    <div
-                      class="date-container h-[30px] w-[280px] m-auto mt-[4px] text-emerald-400  dark:text-emerald-800 pt-[3px] text-left ">
-                      OCTOBER 16, &nbsp; 2023 &nbsp; (icon)
-                    </div>
-                    <h3 class="post-title text-white dark:text-black text-left pl-[8px] text-[18px] font-bold">The importance of UX
-                      in front-End development</h3>
-                    <p class="post-content text-white text-left pl-[8px] mt-[4px]"><a href="#"
-                        class="text-[15px] text-neutral-500 dark:text-neutral-700 hover:underline hover:text-emerald-500">Read
-                        more</a> </p>
-                  </div>
-
-
-                  <div
-                    class="blog-container h-fit w-[300px] px-[5px] pb-[8px] border-solid  dark:border-emerald-800 border-[1px] border-emerald-400 rounded-[10px] m-auto pt-[5px] text-center">
-                    <div class="blog-img-container">
-                      <img src="download.jpg" alt="image" class="blog-imgclass h-[200px] w-[290px] m-auto rounded-[10px]">
-                    </div>
-
-                    <div
-                      class="date-container h-[30px] w-[280px] m-auto mt-[4px] text-emerald-400 dark:text-emerald-800 pt-[3px] text-left ">
-                      OCTOBER 16, &nbsp; 2023 &nbsp; (icon)
-                    </div>
-                    <h3 class="post-title text-white dark:text-black text-left pl-[8px] text-[18px] font-bold">The future of AI and
-                      its impact on web development</h3>
-                    <p class="post-content text-white text-left pl-[8px] mt-[4px]"><a href="#"
-                        class="text-[15px] text-neutral-500 dark:text-neutral-700 hover:underline hover:text-emerald-500">Read
-                        more</a> </p>
-                  </div>
-
-
-              </section>
-
-
-
-              <!-- SECTION-TEN  -->
-              <section class="bg-emerald-950 h-[100px] px-[5vw] py-[10px] pt-[15px] text-center">
-                <p class="text-neutral-300">© copyright 2023</p> <br>
-                <p class="text-neutral-300">Built with Love by Emmanuel Bassey</p>
-              </section>
- </body>
 </html>
