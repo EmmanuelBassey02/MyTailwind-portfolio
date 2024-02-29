@@ -4,6 +4,7 @@
 
 @import 'font-awesome/css/font-awesome.min.css';
 
+
 .section-five-A
 {
    display: flex;
@@ -41,9 +42,9 @@
    padding-right: 15px;
 }
 
-.p-details {
-   font-size: 16px;
-}
+/* .p-details {
+   font-size: 14px;
+} */
 
 .h1-details {
    margin: 7px;

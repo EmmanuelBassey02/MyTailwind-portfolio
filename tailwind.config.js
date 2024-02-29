@@ -10,6 +10,9 @@ module.exports = {
         'md': '600px',
         'lg': '1024px',
       },
+      fontFamily: {
+        'sans': ['Lato', 'sans-serif'],
+      },
     },
   },
   plugins: [],
